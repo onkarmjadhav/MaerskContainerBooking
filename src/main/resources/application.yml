@@ -1,0 +1,7 @@
+spring:
+  data:
+    cassandra:
+      keyspaceName: maersk
+      contactPoints: localhost
+      port: 8080
+      schemaAction: CREATE_IF_NOT_EXISTS
